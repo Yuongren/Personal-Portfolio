@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Youngren Gitonga | Software Developer Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Google Fonts + Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container nav-flex">
+        <div class="logo">&lt; Youngren Gitonga /&gt;</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn-primary" style="padding:0.6rem 1.4rem;">Resume <i class="fas fa-download"></i></a>
+    </div>
+</nav>
+
+<main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="hero-badge"><i class="fas fa-code"></i> Software Engineer</span>
+                <h1>Crafting <span class="highlight">scalable</span> <br> digital solutions</h1>
+                <p class="hero-desc">I'm Youngren Gitonga — full-stack developer with 5+ years of experience building high-performance web apps, APIs, and cloud-native systems. I turn complex problems into elegant code.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn-primary"><i class="fas fa-eye"></i> View Work</a>
+                    <a href="#contact" class="btn-outline"><i class="fas fa-comment"></i> Let's Talk</a>
+                </div>
+                <div class="social-links" style="margin-top: 2rem;">
+                    <a href="https://github.com/Yuongren" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/young-gitonga-b653583a5/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/YoungrenGitonga" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-avatar">
+                    <i class="fas fa-laptop-code"></i>
+                    <p>“Code is poetry in motion”</p>
+                    <i class="fas fa-terminal" style="font-size:1rem; color:#38bdf8;"></i> <span style="font-family:monospace;"> dev@alex:~$ </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Arsenal</h2>
+            <div class="skills-grid">
+                <span class="skill-card"><i class="fab fa-js"></i> JavaScript / TypeScript</span>
+                <span class="skill-card"><i class="fab fa-react"></i> React & Next.js</span>
+                <span class="skill-card"><i class="fab fa-node-js"></i> Node.js / Express</span>
+                <span class="skill-card"><i class="fab fa-python"></i> Python / FastAPI</span>
+                <span class="skill-card"><i class="fas fa-database"></i> PostgreSQL / MongoDB</span>
+                <span class="skill-card"><i class="fab fa-docker"></i> Docker / K8s</span>
+                <span class="skill-card"><i class="fab fa-aws"></i> AWS (EC2, Lambda, RDS)</span>
+                <span class="skill-card"><i class="fas fa-code-branch"></i> Git & CI/CD</span>
+                <span class="skill-card"><i class="fas fa-cloud"></i> GraphQL / REST</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img"><i class="fas fa-brain"></i><h3 style="margin-top:8px;">AI TaskFlow</h3></div>
+                    <div class="project-info">
+                        <p>Intelligent productivity platform using OpenAI API + real-time collaboration. Served 2k+ users during beta.</p>
+                        <div class="project-tech"><span class="tech-tag">React</span><span class="tech-tag">Node.js</span><span class="tech-tag">MongoDB</span><span class="tech-tag">Socket.io</span></div>
+                        <div class="project-links"><a href="#"><i class="fab fa-github"></i> Code</a><a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a></div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img"><i class="fas fa-chart-line"></i><h3 style="margin-top:8px;">DevMetrics</h3></div>
+                    <div class="project-info">
+                        <p>Developer analytics dashboard that aggregates GitHub metrics and displays team velocity. Integrated with OAuth.</p>
+                        <div class="project-tech"><span class="tech-tag">Next.js</span><span class="tech-tag">Tailwind</span><span class="tech-tag">Prisma</span><span class="tech-tag">PostgreSQL</span></div>
+                        <div class="project-links"><a href="#"><i class="fab fa-github"></i> Source</a><a href="#"><i class="fas fa-external-link-alt"></i> Preview</a></div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img"><i class="fas fa-cloud-upload-alt"></i><h3 style="margin-top:8px;">CloudSnap</h3></div>
+                    <div class="project-info">
+                        <p>Serverless image processing service with automatic resizing and CDN caching. Handles 10k+ requests/day.</p>
+                        <div class="project-tech"><span class="tech-tag">AWS Lambda</span><span class="tech-tag">S3</span><span class="tech-tag">Sharp</span><span class="tech-tag">API Gateway</span></div>
+                        <div class="project-links"><a href="#"><i class="fab fa-github"></i> Repo</a><a href="#"><i class="fas fa-external-link-alt"></i> Try it</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education -->
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="exp-item">
+                    <div class="exp-title">Senior Software Engineer</div>
+                    <div class="exp-company">Nexify Technologies · Full-time</div>
+                    <div class="exp-date"><i class="far fa-calendar-alt"></i> 2022 – Present</div>
+                    <p>Lead frontend architecture for enterprise SaaS product, improved performance by 42% via code splitting & lazy loading. Mentored 3 junior devs and introduced micro-frontend strategy.</p>
+                </div>
+                <div class="exp-item">
+                    <div class="exp-title">Full Stack Developer</div>
+                    <div class="exp-company">CodeLabs Studio · Remote</div>
+                    <div class="exp-date"><i class="far fa-calendar-alt"></i> 2019 – 2022</div>
+                    <p>Developed RESTful APIs and React admin dashboards for fintech clients. Integrated payment gateways and real-time websocket notifications. Reduced API response time by 35%.</p>
+                </div>
+                <div class="exp-item">
+                    <div class="exp-title">B.Sc. in Computer Science</div>
+                    <div class="exp-company">University of Technology · Graduated with Honors</div>
+                    <div class="exp-date"><i class="fas fa-graduation-cap"></i> 2015 – 2019</div>
+                    <p>Specialized in distributed systems and algorithms. Finalist in national hackathon 2018.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Get in touch -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Let’s Connect</h2>
+            <div class="contact-flex">
+                <div class="contact-info">
+                    <h3 style="font-size:1.5rem;">Have a project in mind?</h3>
+                    <p>I'm currently open to freelance contracts, full-time opportunities, or just tech chats.</p>
+                    <p><i class="fas fa-envelope"></i> youngrengitonga@gmail.com</p>
+                    <p><i class="fas fa-phone-alt"></i> +254 701 049 280</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Nairobi Kenya (Remote)</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Stack Overflow"><i class="fab fa-stack-overflow"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" action="#" method="post">
+                        <div class="form-group">
+                            <input type="text" placeholder="Full name" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email address" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="4" placeholder="Tell me about your idea..." id="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary" style="width:100%; justify-content:center;"><i class="fas fa-paper-plane"></i> Send Message</button>
+                        <p id="formFeedback" style="margin-top: 12px; font-size:0.85rem;"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>© 2025 Alex Rivera — Built with <i class="fas fa-heart" style="color:#ef4444;"></i> using HTML/CSS & vanilla JS. All code craftmanship.</p>
+    </div>
+</footer>
+
+<!-- Simple form simulation & resume action -->
+<script src="index.js"></script>
+
+</body>
+</html>
